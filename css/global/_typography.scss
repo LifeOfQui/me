@@ -5,29 +5,24 @@
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: .2rem;
-    transition: all .2s;
-
-    &:hover {
-        transform: skewY(0deg) skewX(-15deg) scale(1.1);
-        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
-    }
+    transition: all .2s; // &:hover {
+    //     transform: skewY(0deg) skewX(-15deg) scale(1.1);
+    //     text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+    // }
 }
 
 .header {
     color: $color-white;
     backface-visibility: hidden;
     margin-bottom: 6rem;
-
     &__title {
         display: block;
         font-size: 3rem;
         font-weight: 400;
-
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
     }
-
     &__subtitle {
         display: flex;
         justify-content: space-between;
@@ -39,14 +34,11 @@
         border-top: 1px solid #fff;
         border-bottom: 1px solid #fff;
         padding: 10px 0;
-
         span {
             padding: 0 10px;
-
             &:first-child {
                 padding-left: 0;
             }
-
             &:last-child {
                 padding-right: 0;
             }

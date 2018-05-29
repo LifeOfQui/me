@@ -17,9 +17,9 @@
         <header class="header">
             <nav class="nav">
                 <div class="logo">
-                    <img style="width: 130px; height: 93px;" src="img/logo.svg" />
+                    <img style="width: 130px; height: 93px; margin-top: 50px;" src="img/logo.svg" />
                 </div>
-                <ul>
+                <!-- <ul>
                     <li>
                         <a>HOME</a>
                     </li>
@@ -29,7 +29,7 @@
                     <li>
                         <a>BLOG</a>
                     </li>
-                </ul>
+                </ul> -->
             </nav>
             <div class="header__title">Hi I Am
                 <span class="header__title--bold">Quirin Koch
@@ -40,9 +40,9 @@
                 <span>Sports enthusiast</span>
             </div>
 
-            <div class="tooltip tooltip--header">
+            <!-- <div class="tooltip tooltip--header">
                 <div class="tooltip__balloon">I am a tooltip!</div>
-            </div>
+            </div> -->
         </header>
         <main class="main">
             <div id="about-me" class="page-section" data-matching-link="#about-me-link">
@@ -105,8 +105,8 @@
                     <h2 class="headline headline--centered">
                         <strong>Professional skills</strong>
                     </h2>
-                    <button onclick="render()">Show skills</button>
-                    <div id="chart"></div>
+                    <!-- <button onclick="render()">Show skills</button> -->
+                    <div id="chart" style="margin: 0 auto; width: 600px;"></div>
                 </div>
             </div>
             <div id="about-me" class="page-section" data-matching-link="#about-me-link">
@@ -134,7 +134,7 @@
                     </p>
                 </div>
             </div> -->
-            <div id="about-me" class="page-section" data-matching-link="#about-me-link">
+            <!-- <div id="about-me" class="page-section" data-matching-link="#about-me-link">
                 <div class="wrapper">
                     <h2 class="headline headline--centered">
                         <strong>Professional skills</strong>
@@ -145,7 +145,7 @@
                     </svg>
                     <input type="range" name="" value="">
                 </div>
-            </div>
+            </div> -->
             <div id="about-me" class="page-section" data-matching-link="#about-me-link">
                 <div class="wrapper">
                     <h2 class="headline headline--centered">
@@ -157,7 +157,7 @@
                             <img alt="Photo 2" class="composition__photo composition__photo--p2" src="img/andorra-finish.jpg">
                             <img alt="Photo 3" class="composition__photo composition__photo--p3" src="img/andorra-snow.jpg">
                         </div>
-                        <a href="post.html" target="_blank" class="button button--cta">Gehe zu Bericht</a>
+                        <!-- <a href="post.html" target="_blank" class="button button--cta">Gehe zu Bericht</a> -->
                     </div>
                 </div>
             </div>
@@ -187,6 +187,7 @@
             }, function () {
                 $(this).find('.rollover-content').removeClass('active');
             });
+            render();
         });
     </script>
     <script src="js/d3.js"></script>
