@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quirin Koch</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label> -->
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <img style="width: 130px; height: 93px;" src="img/logo.svg" />
+                </div>
+                <ul>
+                    <li>
+                        <a>HOME</a>
+                    </li>
+                    <li>
+                        <a>ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a>BLOG</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__title">Hi I Am
+                <span class="header__title--bold">Quirin Koch
+                    <span>.</div>
+            <div class="header__subtitle">
+                <span>Frontend Developer</span>
+                <span>UI &amp; UX Designer</span>
+                <span>Sports enthusiast</span>
+            </div>
+
+            <div class="tooltip tooltip--header">
+                <div class="tooltip__balloon">I am a tooltip!</div>
+            </div>
+        </header>
+        <main class="main">
+            <div id="about-me" class="page-section" data-matching-link="#about-me-link">
+                <h2 class="headline headline--centered">
+                    <strong>The Spartan Racer</strong>
+                </h2>
+                <div class="grid">
+                    <div class="area">
+                        <img src="img/hero.jpg" alt="">
+                        <a href="www.ard.de" target="_blank" class="rollover-content">
+                            <span>Spartan Race EM Andorra 09/2017</span>
+                        </a>
+                    </div>
+                    <div class="area">
+                        <img src="img/sandbag-small.jpg" alt="">
+                        <div href="#" class="rollover-content">
+                            <span>Spartan Race Oberndorf 09/2016</span>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <img src="img/mud-small.jpg" alt="">
+                        <div href="#" class="rollover-content">
+                            Spartan Race Oberndorf 09/2017
+                        </div>
+                    </div>
+                    <div class="area medal">
+                        <img src="img/em-medal-small.jpg" alt="">
+                        <div href="#" class="rollover-content">
+                            <span>Spartan Race EM Andorra 09/2017</span>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <img src="img/crawl-small.jpg" alt="">
+                        <div href="#" class="rollover-content">
+                            Spartan Race Wien 05/2017
+                        </div>
+                    </div>
+                    <div class="area">
+                        <img src="img/chain-small.jpg" alt="">
+                        <div href="#" class="rollover-content">
+                            <span>Spartan Race Oberndorf 09/2017</span>
+                        </div>
+                    </div>
+                    <div class="area">
+                        <img src="img/rock-small.jpg" alt="">
+                        <div href="#" class="rollover-content">
+                            <span>Spartan Race Sparta 11/2017</span>
+                        </div>
+                    </div>
+                    <div class="area tall">
+                        <img src="img/bucket-small.jpg" alt="">
+                        <div href="#" class="rollover-content">
+                            Spartan Race Wien 05/2017
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about-me" class="page-section" data-matching-link="#about-me-link">
+                <div class="wrapper">
+                    <h2 class="headline headline--centered">
+                        <strong>Professional skills</strong>
+                    </h2>
+                    <button onclick="render()">Show skills</button>
+                    <div id="chart"></div>
+                </div>
+            </div>
+            <div id="about-me" class="page-section" data-matching-link="#about-me-link">
+                <div class="wrapper">
+                    <h2 class="headline headline--centered">
+                        <strong>The Traveler</strong>
+                    </h2>
+                    <div class="" style="display: flex; width: 800px; height: 450px; margin: 0 auto;">
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/qo_k33RoIgI?ecver=1" frameborder="0" gesture="media"
+                            allow="encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="story">
+                <figure class="story__shape">
+                    <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img">
+                    <figcaption class="story__caption">Jack Wilson</figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3 class="heading-tertiary u-margin-bottom-small">WOW! My life is completely different now</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
+                        ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat
+                        quis consequatur ducimus quam nisi exercitationem omnis earum qui.
+                    </p>
+                </div>
+            </div> -->
+            <div id="about-me" class="page-section" data-matching-link="#about-me-link">
+                <div class="wrapper">
+                    <h2 class="headline headline--centered">
+                        <strong>Professional skills</strong>
+                    </h2>
+                    <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" id="scatterplot">
+                    </svg>
+                    <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" id="pie">
+                    </svg>
+                    <input type="range" name="" value="">
+                </div>
+            </div>
+            <div id="about-me" class="page-section" data-matching-link="#about-me-link">
+                <div class="wrapper">
+                    <h2 class="headline headline--centered">
+                        <strong>Spartan Race EM Andorra 09/2017</strong>
+                    </h2>
+                    <div style="display: grid; grid-template-columns: 1fr">
+                        <div class="composition">
+                            <img alt="Photo 1" class="composition__photo composition__photo--p1" src="img/andorra-start-2.jpg">
+                            <img alt="Photo 2" class="composition__photo composition__photo--p2" src="img/andorra-finish.jpg">
+                            <img alt="Photo 3" class="composition__photo composition__photo--p3" src="img/andorra-snow.jpg">
+                        </div>
+                        <a href="post.html" target="_blank" class="button button--cta">Gehe zu Bericht</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="gridcontainer">
+                <div class="item1"></div>
+                <div class="item2"></div>
+
+                <a class="item4" href="https://twitter.com/LifeofQui">
+                    <div></div>
+                </a>
+                <a class="item5" href="https://github.com/LifeOfQui">
+                    <div></div>
+                </a>
+                <div class="item6"></div>
+                <div class="item7">Youtube</div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.area').hover(function () {
+                $(this).find('.rollover-content').addClass('active');
+            }, function () {
+                $(this).find('.rollover-content').removeClass('active');
+            });
+        });
+    </script>
+    <script src="js/d3.js"></script>
+    <script src="js/data.js" charset="utf-8"></script>
+    <script src="js/races.js" charset="utf-8"></script>
+    <script src="js/skills.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/flip.js"></script>
+</body>
+
+</html>

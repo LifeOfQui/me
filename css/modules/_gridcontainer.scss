@@ -1,0 +1,69 @@
+.gridcontainer {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(5, 10vmin);
+    grid-template-rows: repeat(5, 10vmin);
+}
+
+.item1 {
+    background-color: #1abc9c;
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/cssgrid.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item2 {
+    background-color: #3498db;
+    grid-row: 4;
+}
+
+.item4 {
+    background-color: #3498db;
+    grid-column: 3/ 4;
+    grid-row: 3 / 4;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/Twitter_Logo_White_On_Blue_copy.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item5 {
+    background-color: #fff;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/GitHub-Mark.svg");
+    background-repeat: no-repeat;
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    background-size: 50%;
+    background-position: center;
+}
+
+.item6 {
+    background-color: #3b5998;
+    grid-column: 4 / 5;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/facebook.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item7 {
+    background-color: green;
+    grid-column: 3;
+    grid-row: 5 / 6;
+}
+
+[class^="item"] {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+[class^="item"]:hover {
+    opacity: 1;
+    transform: scale(1.25);
+}

@@ -1,0 +1,9 @@
+.columns {
+    columns: 3;
+    column-gap: 10px;
+    column-rule: 1px dotted #999;
+
+    h2 {
+        column-span: all;
+    }
+}

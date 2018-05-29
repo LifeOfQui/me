@@ -1,0 +1,26 @@
+@import "vendor/normalize.scss";
+@import "global/_variables.scss";
+@import "global/_mixins.scss";
+@import "global/_base.scss";
+@import "global/_animations.scss";
+@import "global/_typography.scss";
+@import "modules/_grid.scss";
+@import "modules/_header.scss";
+@import "modules/_nav.scss";
+@import "modules/_composition.scss";
+@import "modules/_footer.scss";
+@import "modules/_headline.scss";
+@import "modules/_page-section.scss";
+@import "modules/_tooltip.scss";
+@import "modules/_wrapper.scss";
+@import "modules/_generic-content-container.scss";
+@import "modules/_columns.scss";
+@import "modules/_button.scss";
+@import "modules/_races.scss";
+@import "modules/_gridcontainer.scss";
+@import "modules/_story.scss";
+@import "modules/_d3.scss";
+
+.main {
+    grid-area: c;
+}
